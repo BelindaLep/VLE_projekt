@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url(fonts/GlacialIndifference-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url(fonts/GlacialIndifference-Bold.otf) format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Glacial Indifference';
+    src: url(fonts/GlacialIndifference-Italic.otf)s format('opentype');
+    font-weight: italic;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Glacial Indifference", sans-serif;
+}
+
+#banner {
+    background-color: #414442;
+    border-bottom: solid;
+    border-color: #ffffff;
+    border-width: 20px;
+
+}
+
+#bannertext {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#bannerimg {
+    height: 200px;
+    width: auto;
+    margin-right: 20px;
+}
+
+#hinnakiritekst{
+    font-weight: bold;
+    font-size: 50px;
+    color: #414442;
+}
+
+#formtitle{
+    font-size: 32px;
+    color: #414442;
+}
+
+#label{
+    margin: 5px;
+    font-size: 25px;
+}
+
+select{
+    max-width: 200px;
+}
+
+button{
+    background-color: #414442;
+    border: 0;
+    border-radius: 25px;
+    font-size: 32px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(24, 236, 24);
+    margin: 20px;
+}
+
+
+.menuitem {
+
+    font-size: 26px;
+    line-height: 33px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.menuitem:hover {
+    background-color: #BCD2B3;
+}
+
+.container {
+    background-color: #BCD2B3;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#footer {
+    margin-top: 20px;
+    background-color: #414442;
+}
+
+.meist-tekst {
+    padding: 20px;
+}
+
+.meist-tekst a {
+    color: #47525E;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 100;
+}
+#socicon{
+    width: 30px;
+    height: auto;
+}
+
